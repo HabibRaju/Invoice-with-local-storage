@@ -158,15 +158,113 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </ul>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
-                {{-- <i class="nav-icon fas fa-th"></i> --}}
-                <i class="nav-icon fab fa-airbnb"></i>
-                <p>
-                  Simple Link
-                  <span class="right badge badge-danger">New</span>
-                </p>
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('invoices.index')}}" class="nav-link">
+                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                <p></p>
+              </a>
+            </li> 
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
@@ -178,7 +276,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="container">
       <div class="row">
         <div class="col md 12">
-          <h1 class="text-center">Create Invoice</h1>
+          <h1 class="text-center">All Invoice List</h1>
         </div>
       </div>
     </div>
@@ -218,15 +316,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div>
     </div>
     <!-- Main Footer -->
-    <footer class="main-footer">
-      <!-- To the right -->
-      <div class="float-right d-none d-sm-inline">
-        Anything you want
-      </div>
-      <!-- Default to the left -->
-      <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-    </footer>
-  </div>
   <!-- ./wrapper -->
 
   <!-- REQUIRED SCRIPTS -->

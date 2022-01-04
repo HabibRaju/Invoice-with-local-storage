@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -31,4 +31,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Create New Product</h2>
+    <form action="{{ route('products.store') }}" method="POST">  
+      @csrf  
+      <input type="text" class="form-control mt-3" name="name"  placeholder="Enter Product Name"> <br><br>
+      <input type="number" class="form-control mt-3" name="quantity" placeholder="Enter Product Quantity">  <br><br>
+      <input type="text" class="form-control mt-3" name="price" placeholder="Enter Product Price"> <br><br>
+      <button class="btn btn-primary" type="submit">Save</button>
+  </form>
+
+</div>
+
+</body>
 </html>

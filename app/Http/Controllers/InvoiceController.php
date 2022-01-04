@@ -6,6 +6,7 @@ use App\Models\Invoice;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redis;
 
 class InvoiceController extends Controller
@@ -53,6 +54,13 @@ class InvoiceController extends Controller
                 'price'           => $allInvoice['invoice'][$x]['quantity']*$allInvoice['invoice'][$x]['unit_price']
             ]);
         }
+
+        $details = [
+            'title' => 'Product Order Confirmation',
+            'body' => 'Sir, your order has been confirmed.'
+        ];
+
+        Mail::to(Auth::user()->email)->send(new \App\Mail\MyTestMail($details));
     }
 
     /**
